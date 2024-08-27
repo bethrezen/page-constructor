@@ -4,7 +4,7 @@
 
 import React, {Fragment, ReactNode, useContext} from 'react';
 
-import {HTML, ToggleArrow} from '../';
+import {ToggleArrow} from '../';
 import {LocationContext} from '../../context/locationContext';
 import {MobileContext} from '../../context/mobileContext';
 import {QAProps, TextSize, TitleItemProps} from '../../models';
@@ -56,7 +56,7 @@ const TitleItem = (props: TitleItemFullProps) => {
     const {hostname} = useContext(LocationContext);
     const textMarkup = (
         <React.Fragment>
-            <HTML className={b('text')}>{text}</HTML>
+            <div className={b('text')}>{text}</div>
             {custom && (
                 <React.Fragment>
                     &nbsp;
