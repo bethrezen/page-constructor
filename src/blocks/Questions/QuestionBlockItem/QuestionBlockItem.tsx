@@ -32,7 +32,7 @@ export const QuestionBlockItem = ({
         >
             <YFMWrapper
                 variant="h3"
-                className={b('title')}
+                className={b('title-container')}
                 contentClassName={b('title')}
                 itemProp={FaqMicrodataValues.QuestionNameProp}
                 content={itemTitle}
