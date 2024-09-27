@@ -28,7 +28,7 @@ $block: '.#{$ns}QuestionsBlockItem';
     &__title-container {
         margin: 0;
         position: relative;
-        padding-right: 24px;
+        padding-right: $indentSM;
     }
 
     &__arrow {
